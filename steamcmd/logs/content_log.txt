@@ -839,3 +839,6 @@
 [2022-09-10 14:58:30] HTTP (SteamCache,188) - cache5-ams1.steamcontent.com (155.133.248.16:80 / 155.133.248.16:80, host: cache5-ams1.steamcontent.com): Closing connection
 [2022-09-10 14:58:30] HTTP (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:80 / 185.25.182.3:80, host: cache1-par1.steamcontent.com): Closing connection
 [2022-09-10 14:58:30] HTTP (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:80 / 185.25.182.36:80, host: cache4-par1.steamcontent.com): Closing connection
+
+
+[2022-09-20 21:56:39] Loaded 0 apps from install folder "P:\github\fuyutaaProjecs\steamworkshop_downloader\steamcmd\steamapps\appmanifest_*.acf".

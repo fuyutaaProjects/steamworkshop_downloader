@@ -37,7 +37,7 @@ def get_addon_id(addon_name):
 
 
 def main():
-    steamcmd_commands = ["steamcmd/steamcmd.exe"]
+    list_of_cmd_commands_as_str = "start cmd /k ; cd steamcmd ^& steamcmd.exe ^& login anonymous"
     print("--------------------------------------------------------------")
     print("The mods names must be placed in the txt mods.txt, located under the same directory of main.py")
     print("If you are not sure about the formatting, there is a sample formatted file called mods_example_file.txt to show you how the file must look like.")
@@ -52,24 +52,11 @@ def main():
         print(addon_id)
         addon_download_command = "workshop_download_item " + game_workshop_id + " " + addon_id
         print(addon_download_command) 
-        steamcmd_commands.append(addon_download_command)
+        new_command = " ^& " + addon_download_command
+        list_of_cmd_commands_as_str += (new_command)
     # OPEN STEAMCMD.EXE IN CMD
-    encoding = 'latin1'
-    steamcmd = subprocess.Popen('cmd.exe', stdin=subprocess.PIPE,
-                stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    for command in steamcmd_commands:
-        command_2 = bytes(command,'UTF-8')
-        #print(type(command_2))
-        steamcmd.stdin.write(command_2 + b"\n")
-    steamcmd.stdin.close()
-    print(steamcmd.stdout.read())
-
-
-
-
-        # TYPE: login anonymous
-
-        # PASS COMMANDS TO STEAMCMD
+    print(list_of_cmd_commands_as_str)
+    os.system(list_of_cmd_commands_as_str)
 
 
 main()
