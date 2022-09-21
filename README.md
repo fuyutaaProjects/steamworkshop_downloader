@@ -25,10 +25,16 @@ REQUIREMENTS:
 - subprocess (Popen) (Built-in python)
 -  os (Built-in python)
 
-If you don't know how to download the required libs:
+If you don't know how to download the required libs or start the main.py with python3:
 - Open a cmd
 - type in the following commands:
 ```
 pip install beautifulsoup4
 pip install requests
 ```
+
+To start the main.py file:
+```
+python3 main.py
+```
+(Requires being under the same directory of the project)
