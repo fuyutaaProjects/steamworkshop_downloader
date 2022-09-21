@@ -21,6 +21,13 @@ STEPS:
 
 REQUIREMENTS:
 - bs4 (BeautifulSoup)
-- subprocess (Popen)
 - requests
--  os
+- subprocess (Popen) (Built-in python)
+-  os (Built-in python)
+
+If you don't know how to download the required libs:
+- Open a cmd
+- type in the following commands:
+> pip install beautifulsoup4
+> pip install requests
+> 
