@@ -16,7 +16,7 @@ STEPS:
  
  Simple as that!
 
- BEWARE: This is V1, without values checks and stuff, so if you input a value wrongly, it just crashes without warning.
+ *BEWARE: This is V1, without values checks and stuff, so if you input a value wrongly, it just crashes without warning.
 
 
 REQUIREMENTS:
