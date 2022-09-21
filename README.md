@@ -1,6 +1,9 @@
 # steamworkshop_downloader
- A tool to download mods/addons on the steamworkshop with only its name.
+ A tool to download addons on the steamworkshop by giving only their names.
+ It's like WorkshopDL (another GitHub repo) but lighter, without GUI, simplified.
+ Instead of giving addon's link and workshop's link, you only have to type the addons in the addons.txt file, and give the game's name when the script asks you (once)
 
+STEPS:
  1. Add the steamcmd.
  The steamcmd is not included in the repository, you'll need to download it and add it to the root of this repository.
  (It's where the main.py file is located.)
