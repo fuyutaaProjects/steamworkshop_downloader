@@ -28,6 +28,7 @@ REQUIREMENTS:
 If you don't know how to download the required libs:
 - Open a cmd
 - type in the following commands:
-> pip install beautifulsoup4
-> pip install requests
-> 
+```
+pip install beautifulsoup4
+pip install requests
+```
