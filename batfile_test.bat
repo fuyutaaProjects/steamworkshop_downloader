@@ -1,1 +1,0 @@
-start cmd /k ""cd steamcmd" "steamcmd.exe""
